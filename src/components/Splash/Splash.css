@@ -1,0 +1,50 @@
+.splash-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.splash-body {
+    height: 65vh;
+    padding-top: 30vh;
+}
+
+.splash-title {
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+
+}
+
+.splash-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.splash-subsubtitle {
+    font-size: 0.75rem;
+}
+
+.chevron-pulse {
+    animation: pulse 2s linear infinite;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: var(--primary);
+    }
+    50% {
+        transform: scale(1.5);
+        color: var(--secondary);
+    }
+    100% {
+        transform: scale(1);
+        color: var(--primary);
+    }
+}
+
