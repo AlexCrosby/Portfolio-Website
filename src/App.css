@@ -1,6 +1,27 @@
-.App {
-  text-align: center;
+
+:root{
+  --primary: #006494;
+  --p2: #006494;
+  --secondary: #1E91D6 ;
+  --background: #FFFBFA;
 }
+
+body{
+  color: var(--primary);
+  font-family: "Segoe UI";
+  font-weight:500;
+  background-color: var(--background);
+}
+
+
+
+
+
+a{
+  color:var(--primary);
+text-decoration: None;
+  }
+
 
 .App-logo {
   height: 40vmin;
