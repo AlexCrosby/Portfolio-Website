@@ -1,5 +1,9 @@
 import React from "react";
-import "./Skills.css"
+import "./Skills.css";
+import "animate.css";
+
+
+import ScrollAnimation from "react-animate-on-scroll";
 
 
 const skillItems = ['Java',
@@ -21,13 +25,23 @@ const skillItems = ['Java',
 
 const Skills = () => {
 
-    return (<div id={"skills"} className={"skills-container"}>
-            <h1>skills.</h1>
-
-
+    return (<div id={"skills"} className={"skills-container component"}>
+            <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
+                <h1>skills.</h1>
+            </ScrollAnimation>
             <div className={"skills-items-body"}>
+
                 <ul className={"skill-items"}>
-                    {skillItems.map(item => (<li className={"skill"} key={item}>{item}</li>))}
+                    {
+                        skillItems.map(item => (
+                            <li className={"skill"} key={item}>
+                                <ScrollAnimation animateIn="animate__fadeIn"
+                                                 animateOnce={true}
+                                                 offset={50}>
+                                    {item}
+                                </ScrollAnimation>
+                            </li>
+                        ))}
                 </ul>
             </div>
         </div>

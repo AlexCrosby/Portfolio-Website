@@ -13,9 +13,20 @@ body{
   font-family: "Segoe UI";
   font-weight:500;
   background-color: var(--background);
-  padding: 0;
+  padding: 0px;
+  margin:0px;
 }
 
+
+.component{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline:1px solid black;
+  margin:0;
+  height: 92vh;
+  padding: 8vh 0 0;
+}
 
 
 

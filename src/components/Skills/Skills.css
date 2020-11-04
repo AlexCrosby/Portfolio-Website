@@ -1,12 +1,5 @@
-.skills-container {
-    border: solid black;
-    display: flex;
-    flex-direction: column;
-    height: 92vh;
-    align-items: center;
-}
-
 .skills-items-body {
+    outline: solid red;
     display: flex;
     justify-content: center;
     align-items: center;

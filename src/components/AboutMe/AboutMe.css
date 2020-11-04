@@ -1,0 +1,45 @@
+.me {
+    outline: solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+
+
+}
+
+.title {
+    outline: solid orange
+}
+
+.me-text {
+    padding-right: 1vw;
+    outline: solid blue;
+    text-align: right;
+
+}
+
+
+.me-links {
+    padding-top: 2vh;
+    outline: solid purple;
+}
+
+.me-photo {
+    outline: solid red;
+    border: 5px var(--primary) solid;
+    border-radius: 5px;
+}
+
+.link {
+    padding-left: 1vh;
+}
+
+
+@media (max-width: 550px) {
+
+    .me {flex-direction: column-reverse;
+    }
+    .me-text{text-align: center;}
+}

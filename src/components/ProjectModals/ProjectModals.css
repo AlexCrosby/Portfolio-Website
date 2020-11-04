@@ -1,0 +1,89 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 12.5vh auto;
+    width: 75vw;
+    height: 75vh;
+    z-index: 9999;
+    outline: 5px solid green;
+    background-color: #FFFBFA;
+
+}
+
+.ReactModal__Overlay {
+    z-index: 9998; /* Must be greater than #side-dragbar:z-index */
+}
+
+
+.header {
+    display: flex;
+    outline: 1px solid blue;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding: 1vh;
+
+}
+
+
+.close {
+    outline: solid pink;
+    flex: 0 1 auto;
+    margin-left: auto;
+}
+
+
+.icon:hover {
+    animation-name: hover2;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+
+.projectTitle {
+    outline: 1px solid yellow;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    padding: 0;
+    transition: .3s all ease;
+    visibility: hidden;
+    opacity: 0;
+    margin: 10px 0 0;
+}
+
+
+.project {
+    position: relative;
+    outline: 1px solid purple;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.project:hover .icon {
+    /*filter: blur(5px);*/
+    filter: brightness(50%);
+    transform: scale(1.05);
+}
+
+.project:hover .projectTitle {
+    visibility: visible;
+    opacity: 100%;
+    margin: 0;
+}
+
+
+.icon {
+    outline: 1px solid red;
+    display: block;
+
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    transition: .3s all ease;
+}
