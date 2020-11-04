@@ -26,7 +26,7 @@ const Projects = () => {
 
 
     return (
-        <div id={"projects"} className={"component"}>
+        <div  className={"component projects2"}>
 
 
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
@@ -34,14 +34,28 @@ const Projects = () => {
             </ScrollAnimation>
 
 
-            <div>
+
+                <ul className={"project-items"}>
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+                    <li className={"project-item"}><ProjectModal modal={sketcher}/></li>
+                </ul>
 
 
-                <ProjectModal modal={sketcher}/>
 
 
 
-            </div>
+
 
         </div>
 )

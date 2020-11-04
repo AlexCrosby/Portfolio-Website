@@ -36,7 +36,7 @@ const AboutMe = () => {
                 </div>
                 <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                 <div className={"me-photo"}>
-                    <img  height={100} src={aboutMePhoto} alt={"It's me!"}/>
+                    <img  height={500} src={aboutMePhoto} alt={"It's me!"}/>
                 </div>
                 </ScrollAnimation>
             </div>

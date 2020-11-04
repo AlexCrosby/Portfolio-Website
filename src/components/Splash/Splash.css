@@ -11,13 +11,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    outline:solid red;
+    /*outline:solid red;*/
     height: 90%;
 }
 
 .chevron {
     display:flex;
-    outline:solid red;
+    /*outline:solid red;*/
     height: 10%;
     align-items: center;
 }
@@ -30,7 +30,7 @@
 }
 
 .splash-subtitle {
-    outline:solid green;
+    /*outline:solid green;*/
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1rem;

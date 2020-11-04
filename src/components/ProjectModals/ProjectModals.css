@@ -20,18 +20,27 @@
 
 .header {
     display: flex;
-    outline: 1px solid blue;
+    outline: 1px solid red;
     align-items: center;
+    /*justify-content: center;*/
     /*justify-content: space-between;*/
     padding: 1vh;
 
+
 }
 
+.title2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateX(10px);
+
+    margin: 0;
+}
 
 .close {
     outline: solid pink;
-    flex: 0 1 auto;
-    margin-left: auto;
+    z-index: 10000;
 }
 
 
@@ -58,16 +67,19 @@
 
 
 .project {
-    position: relative;
+    border-radius: 5px;
+    /*display: inline-block;*/
+    /*position: relative;*/
     outline: 1px solid purple;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    z-index: 9999999999;
 }
 
 .project:hover .icon {
     /*filter: blur(5px);*/
-    filter: brightness(50%);
+    filter: brightness(50%) blur(1px);
     transform: scale(1.05);
 }
 
@@ -80,10 +92,28 @@
 
 .icon {
     outline: 1px solid red;
-    display: block;
+    /*display: block;*/
 
-    border-radius: 5px;
     margin: 0;
     padding: 0;
     transition: .3s all ease;
+}
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .50);
+
+
+}
+
+.title2 {
+    outline: 1px solid green;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
