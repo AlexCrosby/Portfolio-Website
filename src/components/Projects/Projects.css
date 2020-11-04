@@ -1,34 +1,25 @@
-.project-items {
 
+.project-item {
+    /*break-inside: avoid;*/
+    page-break-inside: avoid;
+/*outline: 3px solid orange;*/
+    display: flex;
+
+
+
+}
+
+.list-container {
+    outline: 3px solid purple;
+
+
+}
+
+.project-items{
+    outline: 2px solid silver;
     column-count: 2;
     list-style-type: none;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
-    column-fill: balance;
-    outline: 2px solid silver;
-    height: 100%;
-}
-
-.project-item {
-    display:inline-block;
-    break-inside: auto;
-    vertical-align:top;
-    box-sizing:border-box;
-
-    margin: 0px;
-    padding: 0px;
-    /*outline: 2px solid orangered;*/
-}
-
-.projects2 {
-    /*outline: 3px solid purple;*/
-
-
-}
-
-.projects3 {
-    /*outline: 3px solid purple;*/
-
-
+    margin: 10px;
+    padding: 0;
 }

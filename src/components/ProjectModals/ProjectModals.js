@@ -14,9 +14,7 @@ const ProjectModal = ({modal}) => {
     }
 
 
-    return (
-
-        <div className={"project"}>
+    return (<div className={"project"}>
             <ScrollAnimation animateIn="animate__fadeIn"
                              animateOnce={true}
                              offset={50}>
@@ -26,7 +24,8 @@ const ProjectModal = ({modal}) => {
                     src={require("../../assets/sketchericon.jpg").default}
                     alt={"Sketcher"}/>
                 <h1 className={"projectTitle"}>Sketcher</h1>
-            </div></ScrollAnimation>
+            </div>
+    </ScrollAnimation>
             <Modal className="modal"
                    overlayClassName={"modalOverlay"}
                    isOpen={visible}
@@ -44,9 +43,6 @@ const ProjectModal = ({modal}) => {
                 </div>
                 {modal.body}
             </Modal>
-        </div>
-
-
-    )
+        </div>)
 }
 export default ProjectModal
