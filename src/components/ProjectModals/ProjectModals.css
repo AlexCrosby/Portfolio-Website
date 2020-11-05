@@ -30,12 +30,11 @@
 
 
 .project {
-
+    max-width: 100%;
     border-radius: 5px;
-
     position: relative;
     /*outline: 1px solid purple;*/
-    margin: 20px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     /*z-index: 9999999999;*/
@@ -55,12 +54,13 @@
 
 
 .icon {
-    outline: 3px solid red;
+    /*outline: 3px solid red;*/
     display: block;
 
     margin: 0;
     padding: 0;
     transition: .3s all ease;
+    max-width: 100%;
 }
 
 

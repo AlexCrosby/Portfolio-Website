@@ -28,7 +28,7 @@ const Skills = () => {
     return (
         <div id={"skills"} className={"component skills-container "}>
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
-                <h1>skills.</h1>
+                <h1 className={"page-title"}>skills.</h1>
             </ScrollAnimation>
 
 

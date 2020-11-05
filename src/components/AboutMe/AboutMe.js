@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <div id={"aboutme"} className={"component"}>
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
-                <h1 className={"title"}>about me.</h1>
+                <h1 className={"page-title"}>about me.</h1>
             </ScrollAnimation>
             <div className={"me"}>
 
