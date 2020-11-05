@@ -5,7 +5,22 @@ import ProjectModal from "../ProjectModals/ProjectModals";
 import Modal from "react-modal";
 
 Modal.setAppElement("#root")
-
+const skillItems = ['Java',
+    'JavaFX',
+    'Python',
+    'PostgreSQL',
+    'MongoDB',
+    'Linux',
+    'TensorFlow',
+    'Git',
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Node.js',
+    'Google Cloud',
+    'Amazon Web Services',
+    'Arduino']
 
 const Projects = () => {
 
@@ -18,31 +33,27 @@ const Projects = () => {
 
 
     return (
-        <div className={"component projects2"}>
-
-
+        <div id={"projects"} className={"component skills-container "}>
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                 <h1>projects.</h1>
             </ScrollAnimation>
 
-            <div className={"list-container"}>
 
-                <ul className={"project-items"}>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
-                    <li className={"project-item"}><ProjectModal  modal={sketcher}/></li>
+            <div className={"skills-items-body"}>
 
-                </ul>
+                <div className={"project-items"}>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                    <ProjectModal modal={sketcher}/>
+                </div>
             </div>
-
-
         </div>
     )
 }

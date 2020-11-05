@@ -13,35 +13,7 @@
 
 }
 
-.ReactModal__Overlay {
-    z-index: 9998; /* Must be greater than #side-dragbar:z-index */
-}
 
-
-.header {
-    display: flex;
-    outline: 1px solid red;
-    align-items: center;
-    /*justify-content: center;*/
-    /*justify-content: space-between;*/
-    padding: 1vh;
-
-
-}
-
-.title2 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    transform: translateX(10px);
-
-    margin: 0;
-}
-
-.close {
-    outline: solid pink;
-    z-index: 10000;
-}
 
 
 .icon:hover {
@@ -113,9 +85,36 @@
 
 }
 
+
+/* MODAL CSS */
+
+
+
+.close {
+    outline: solid pink;
+    z-index: 10000;
+}
+
 .title2 {
     outline: 1px solid green;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateX(10px);
+    margin: 0;
+}
+
+
+.ReactModal__Overlay {
+    z-index: 9998;
+}
+
+
+.header {
+    display: flex;
+    outline: 1px solid red;
+    align-items: center;
+    padding: 1vh;
+
+
 }

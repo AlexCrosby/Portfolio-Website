@@ -25,10 +25,13 @@ const skillItems = ['Java',
 
 const Skills = () => {
 
-    return (<div id={"skills"} className={"skills-container component"}>
+    return (
+        <div id={"skills"} className={"component skills-container "}>
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                 <h1>skills.</h1>
             </ScrollAnimation>
+
+
             <div className={"skills-items-body"}>
 
                 <ul className={"skill-items"}>
