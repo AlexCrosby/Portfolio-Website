@@ -21,8 +21,8 @@ const ProjectModal = ({modal}) => {
                 <img
                     className={"icon"}
                     src={require(`../../assets/${modal.icon}.jpg`).default}
-                    alt={"Sketcher"}/>
-                <h4 className={"projectTitle"}>Sketcher</h4>
+                    alt={modal.title}/>
+                <h4 className={"projectTitle"}>{modal.title}</h4>
             </div>
         </ScrollAnimation>
 

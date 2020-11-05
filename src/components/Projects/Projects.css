@@ -42,14 +42,14 @@
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 555px) {
     .project-items {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 8px;
     }
 
     .project {
-        width: 130px;
+        width: 200px;
     }
 
     .project-title {
