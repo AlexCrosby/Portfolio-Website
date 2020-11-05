@@ -14,7 +14,7 @@ const AboutMe = () => {
             </ScrollAnimation>
             <div className={"me"}>
 
-
+<div className={"test"}>
                 <div className={"me-text"}>
                     <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                         <p>Alex is a graduate software developer based in the Midlands in the UK.</p>
@@ -22,20 +22,23 @@ const AboutMe = () => {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                         <div className={"me-links"}>
-                            <a className={"link"} href="mailto:AlexCrosby@live.co.uk"  target="_blank" rel="noopener noreferrer">
+                            <a className={"link hoverable"} href="mailto:AlexCrosby@live.co.uk"  target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faEnvelope} size="3x"/></a>
-                            <a className={"link"} href="https://github.com/AlexCrosby"  target="_blank" rel="noopener noreferrer">
+                            <a className={"link hoverable"} href="https://github.com/AlexCrosby"  target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="3x"/></a>
-                            <a className={"link"} href="https://linkedin.com/in/AlexanderCrosby"  target="_blank" rel="noopener noreferrer">
+                            <a className={"link hoverable"} href="https://linkedin.com/in/AlexanderCrosby"  target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} size="3x"/></a>
                         </div>
                     </ScrollAnimation>
                 </div>
-                <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
+
                     <div className={"me-photo"}>
-                        <img height={500} src={aboutMePhoto} alt={"It's me!"}/>
+                        <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
+                        <img src={aboutMePhoto} alt={"It's me!"}/>
+                        </ScrollAnimation>
                     </div>
-                </ScrollAnimation>
+    </div>
+
             </div>
         </div>
     )

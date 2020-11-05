@@ -22,11 +22,6 @@
 /*    margin: 0 auto;}*/
 
 
-.hoverable:hover{
-    animation-name:hover;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
 @keyframes hover {
 0%{color:var(--primary);}
 100%{color:var(--secondary)}

@@ -38,7 +38,7 @@ const ProjectModal = ({modal}) => {
                 </h1>
                 <FontAwesomeIcon
                     onClick={() => changeVisible(false)}
-                    className={"close"}
+                    className={"close hoverable"}
                     icon={faTimes}
                     size="2x"
                 />
@@ -52,7 +52,7 @@ const ProjectModal = ({modal}) => {
                     <div className={"modal-text-text"}>
                         {modal.body}</div>
                     <div className={"modal-link"}>
-                        <a href={modal.link} target="_blank" rel="noopener noreferrer">
+                        <a className={"hoverable"} href={modal.link} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} size="3x"/></a>
                     </div>
 
