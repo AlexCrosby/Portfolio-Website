@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /*justify-content: space-evenly;*/
     width: 60vw;
     margin: auto;
 
@@ -17,6 +18,7 @@
     padding-right: 1vw;
     outline: solid blue;
     text-align: right;
+    width:40%;
 
 }
 

@@ -1,17 +1,4 @@
-.modal {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 12.5vh auto;
-    width: 75vw;
-    height: 75vh;
-    z-index: 9999;
-    outline: 5px solid green;
-    background-color: #FFFBFA;
 
-}
 
 
 
@@ -24,8 +11,10 @@
 
 
 .projectTitle {
-    outline: 1px solid yellow;
+    /*outline: 1px solid yellow;*/
     position: absolute;
+    color: var(--background);
+    font-weight: 500;
     top: 50%;
     width: 100%;
     text-align: center;
@@ -42,11 +31,11 @@
 .project {
 
     border-radius: 5px;
-    /*display: inline-block;*/
+
     position: relative;
-    outline: 1px solid purple;
-    margin: 5px;
-    padding: 0px;
+    /*outline: 1px solid purple;*/
+    margin: 20px;
+    padding: 0;
     overflow: hidden;
     /*z-index: 9999999999;*/
 }
@@ -65,8 +54,8 @@
 
 
 .icon {
-    outline: 1px solid red;
-    /*display: block;*/
+    outline: 3px solid red;
+    display: block;
 
     margin: 0;
     padding: 0;
@@ -88,15 +77,43 @@
 
 /* MODAL CSS */
 
+.modal-link{padding: 0.5pc}
 
 
+/*.modal-text-text{text-align: right}*/
+
+
+.modal-text{padding-right: 0.5pc;
+  text-align: left;
+    flex-direction: column;
+    /*outline: 2px solid orange;*/
+/*height:100%;*/
+width:50%;}
+
+.modal-images{
+    /*outline: 2px solid crimson;*/
+    text-align: center;
+    /*height:100%;*/
+    width:50%;
+}
+
+.modal-body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /*outline: 5px solid blue;*/
+    width: 100%;
+    height: 100%;
+}
 .close {
-    outline: solid pink;
+    /*outline: solid pink;*/
+    padding-right: 10px;
+    margin: 0;
     z-index: 10000;
 }
 
 .title2 {
-    outline: 1px solid green;
+    /*outline: 1px solid green;*/
     flex: 1;
     display: flex;
     justify-content: center;
@@ -112,9 +129,31 @@
 
 .header {
     display: flex;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     align-items: center;
     padding: 1vh;
 
 
 }
+
+.modal {
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 12.5vh auto;
+    width: 75vw;
+    height: 75vh;
+    z-index: 9999;
+    /*outline: 5px solid green;*/
+    outline: none;
+    border: solid var(--primary);
+    background-color: var(--background);
+    border-radius: 5px;
+
+}
+.modal-images img{max-width: 90%;
+    height:auto}
