@@ -17,8 +17,8 @@ const AboutMe = () => {
 <div className={"test"}>
                 <div className={"me-text"}>
                     <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
-                        <p>Alex is a graduate software developer based in the Midlands in the UK.</p>
-                        <p>Alex previously worked as an electrical technician at Aston Martin, working on electrical and microcontroller devices before leaving to pursue a master's degree in computer science.</p>
+                        <p>I'm a graduate software developer based in the Midlands in the UK.</p>
+                        <p>I previously worked as an electrical technician at Aston Martin, working on electrical and microcontroller devices before leaving to pursue a master's degree in computer science.</p>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
                         <div className={"me-links"}>

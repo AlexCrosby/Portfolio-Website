@@ -10,9 +10,10 @@ const Splash = () => {
         <div className={"splash-container component"}>
             <div className={"splash-body"}>
                 <h1 className={"splash-title"}><Typist startDelay={1000} avgTypingDelay={100}>hello, wold!<Typist.Delay
-                    ms={300}/><Typist.Backspace count={3} delay={200} />rld!</Typist></h1>
+                    ms={300}/><Typist.Backspace count={3} delay={200}/>rld!</Typist></h1>
                 <p className={"splash-subtitle animate__animated animate__fadeInUp animate__delay-4s"}>i'm alex</p>
-                <p className={"splash-subtitle animate__animated animate__fadeInUp animate__delay-5s"}>a software developer</p>
+                <p className={"splash-subtitle animate__animated animate__fadeInUp animate__delay-5s"}>a software
+                    developer</p>
                 {/*<p className={"splash-subtitle splash-subsubtitle animate__animated animate__fadeInUp animate__delay-5s"}>text3</p>*/}
             </div>
             <div className={"chevron"}>

@@ -27,9 +27,9 @@
 100%{color:var(--secondary)}
 }
 
-@media (max-width: 550px) {
+@media (max-width: 660px) {
     .navbar {
-        font-size: 1.5rem;
+        font-size: 1.4em;
     }
 }
 
