@@ -58,8 +58,8 @@ const Projects = () => {
         icon: "arduinoicon",
         image: "arduino",
         link: "https://github.com/AlexCrosby/Arduino-projects",
-        body: (<div><p>I built this website as a large project for the purposes of learning HTML, CSS and the React framework, trying to use responsive design principles.</p>
-            <p>It's main purpose is to act as a portfolio to show off my skills and projects I have worked on.</p>
+        body: (<div><p>My first experience with programming was with the arduino microcontroller while working aat Aston Martin.</p>
+            <p>I made a variety of devices used in vehicle testing including: Cable  continuity testers with LCD displays, thermocouple temperature warning indicators, door closing speed recorders, and fan speed pulse-width modulators.</p>
         </div>)
     }
 

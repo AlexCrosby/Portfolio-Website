@@ -6,10 +6,22 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faTimes} from '@fortawesome/free-solid-svg-icons'
 import ScrollAnimation from "react-animate-on-scroll";
 
+
 const ProjectModal = ({modal}) => {
     const [visible, setVisible] = useState(false);
     const changeVisible = (value) => {
         setVisible(value)
+    }
+
+    const OptionalLink = () => {
+
+        if (modal.link) {
+            return (<div className={"modal-link"}>
+                <a className={"hoverable"} href={modal.link} target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="3x"/></a>
+            </div>);
+        }
+        return null;
     }
 
 
@@ -51,10 +63,8 @@ const ProjectModal = ({modal}) => {
                 <div className={"modal-text"}>
                     <div className={"modal-text-text"}>
                         {modal.body}</div>
-                    <div className={"modal-link"}>
-                        <a className={"hoverable"} href={modal.link} target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithub} size="3x"/></a>
-                    </div>
+
+                    <OptionalLink/>
 
                 </div>
 
