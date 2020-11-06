@@ -40,7 +40,7 @@ const Projects = () => {
                 <p>I participated in this task as part of my final project at the University of Birmingham.</p>
                 <p>For this task I created a neural network architecture capable of making such authorship predictions,
                     achieving first place in terms of accuracy.</p>
-                <p>I am currently in the process of publishing by results.</p>
+                <p>I am currently in the process of publishing my results.</p>
             </div>)
     }
     const this_website = {
