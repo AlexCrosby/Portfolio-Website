@@ -1,9 +1,12 @@
 
 :root{
-  --primary: #006494;
-  --p2: #006494;
-  --secondary: #1E91D6 ;
+  /*--primary: #006494;*/
+  /*--p2: #006494;*/
+  /*--secondary: #1E91D6 ;*/
   --background: #FFFBFA;
+  --primary: #002C5C;
+  --secondary: #0051A8;
+  /*--background: #F6F7EB;*/
 }
 
 

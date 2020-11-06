@@ -29,6 +29,7 @@
 .project {
     max-width: 100%;
     border-radius: 5px;
+    border: 2px solid var(--primary);
     position: relative;
     /*outline: 1px solid purple;*/
     margin: 0;
