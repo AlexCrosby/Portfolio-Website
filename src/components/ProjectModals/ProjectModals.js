@@ -60,7 +60,7 @@ const ProjectModal = ({modal}) => {
             <div className={"modal-body"}>
 
                 <div className={"modal-images"}>
-                    <img className={"modal-image"} src={require(`../../assets/${modal.image}.jpg`).default} alt={modal.image}/>
+                    <img className={"modal-image"} src={require(`../../assets/${modal.image}.jpg`).default} alt={modal.title}/>
                 </div>
                 <div className={"modal-text"}>
                     <div className={"modal-text-text"}>
