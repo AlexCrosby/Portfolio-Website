@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.57345de6.chunk.css",
-    "main.js": "/static/js/main.ce3d54e3.chunk.js",
-    "main.js.map": "/static/js/main.ce3d54e3.chunk.js.map",
+    "main.js": "/static/js/main.5f737d13.chunk.js",
+    "main.js.map": "/static/js/main.5f737d13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.291a5225.js",
     "runtime-main.js.map": "/static/js/runtime-main.291a5225.js.map",
     "static/css/2.a1596f27.chunk.css": "/static/css/2.a1596f27.chunk.css",
-    "static/js/2.880570ac.chunk.js": "/static/js/2.880570ac.chunk.js",
-    "static/js/2.880570ac.chunk.js.map": "/static/js/2.880570ac.chunk.js.map",
+    "static/js/2.b803a55e.chunk.js": "/static/js/2.b803a55e.chunk.js",
+    "static/js/2.b803a55e.chunk.js.map": "/static/js/2.b803a55e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/static/css/2.a1596f27.chunk.css.map",
     "static/css/main.57345de6.chunk.css.map": "/static/css/main.57345de6.chunk.css.map",
-    "static/js/2.880570ac.chunk.js.LICENSE.txt": "/static/js/2.880570ac.chunk.js.LICENSE.txt",
+    "static/js/2.b803a55e.chunk.js.LICENSE.txt": "/static/js/2.b803a55e.chunk.js.LICENSE.txt",
     "static/media/aisoco.jpg": "/static/media/aisoco.2da4bb56.jpg",
     "static/media/ambilight.jpg": "/static/media/ambilight.d9304d4d.jpg",
     "static/media/arduino.jpg": "/static/media/arduino.6c1509a5.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.291a5225.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.880570ac.chunk.js",
+    "static/js/2.b803a55e.chunk.js",
     "static/css/main.57345de6.chunk.css",
-    "static/js/main.ce3d54e3.chunk.js"
+    "static/js/main.5f737d13.chunk.js"
   ]
 }
