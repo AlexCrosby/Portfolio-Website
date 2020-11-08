@@ -1,5 +1,6 @@
 .skills-items-body {
     /*outline: solid red;*/
+    color: var(--secondary);
     display: flex;
     justify-content: center;
     align-items: center;

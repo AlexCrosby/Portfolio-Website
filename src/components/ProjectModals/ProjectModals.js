@@ -30,10 +30,12 @@ const ProjectModal = ({modal}) => {
                          animateOnce={true}
                          offset={50}>
             <div onClick={() => changeVisible(true)}>
-                <img
-                    className={"icon"}
-                    src={require(`../../assets/${modal.icon}.jpg`).default}
-                    alt={modal.title}/>
+                <div className={"image-effect"}>
+                    <img
+                        className={"icon"}
+                        src={require(`../../assets/${modal.icon}.jpg`).default}
+                        alt={modal.title}/>
+                </div>
                 <h4 className={"projectTitle"}>{modal.title}</h4>
             </div>
         </ScrollAnimation>
@@ -58,7 +60,7 @@ const ProjectModal = ({modal}) => {
             <div className={"modal-body"}>
 
                 <div className={"modal-images"}>
-                    <img src={require(`../../assets/${modal.image}.jpg`).default} alt={"It's me!"}/>
+                    <img className={"modal-image"} src={require(`../../assets/${modal.image}.jpg`).default} alt={modal.image}/>
                 </div>
                 <div className={"modal-text"}>
                     <div className={"modal-text-text"}>

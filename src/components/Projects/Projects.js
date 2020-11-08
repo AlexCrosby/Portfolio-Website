@@ -58,15 +58,28 @@ const Projects = () => {
         icon: "arduinoicon",
         image: "arduino",
         link: "https://github.com/AlexCrosby/Arduino-projects",
-        body: (<div><p>My first experience with programming was with the arduino microcontroller while working aat Aston Martin.</p>
+        body: (<div><p>My first experience with programming was with the arduino microcontroller while working at Aston Martin.</p>
             <p>I made a variety of devices used in vehicle testing including: Cable  continuity testers with LCD displays, thermocouple temperature warning indicators, door closing speed recorders, and fan speed pulse-width modulators.</p>
         </div>)
     }
 
+
+    const ambilight = {
+        title: "Ambilight",
+        icon: "ambilighticon",
+        image: "ambilight",
+        body: (<div><p>My DIY ambilight solution.</p>
+            <p>Sections of colour around the edge of the screen are grabbed by software running in the background. This is then passed to an arduino which controls the RGB LED strip attached
+                to the back of the monitor to create the same effect as Phillips ambilight for a fraction of the price.</p>
+        </div>)
+    }
+
+
+
     return (
         <div id={"projects"} className={"component skills-container "}>
             <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true} offset={50}>
-                <h1 className={"page-title"}>projects.</h1>
+                <h1 className={"page-title"}>projects</h1>
             </ScrollAnimation>
 
 
@@ -77,6 +90,7 @@ const Projects = () => {
                     <div className={"grid-item"}><ProjectModal modal={aisoco}/></div>
                     <div className={"grid-item"}><ProjectModal modal={this_website}/></div>
                     <div className={"grid-item"}><ProjectModal modal={arduino}/></div>
+                    <div className={"grid-item"}><ProjectModal modal={ambilight}/></div>
 
 
                 </div>

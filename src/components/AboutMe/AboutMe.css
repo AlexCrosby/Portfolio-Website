@@ -53,7 +53,7 @@
 .me-photo img {
     /*max-height: 100%;*/
     /*max-width: 100%;*/
-    border: 5px var(--primary) solid;
+    border: 5px var(--secondary) solid;
     border-radius: 5px;
 }
 
